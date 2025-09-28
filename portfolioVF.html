@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Portfolio — Olysse</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header simple -->
+  <header class="site-header">
+    <a href="#home" class="logo">Olysse</a>
+    <nav class="site-nav">
+      
+      <a href="#formations">Formations</a>
+      <a href="#experiences">Expériences</a>
+    </nav>
+  </header>
+
+  <!-- Accueil -->
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="images/moi.png" alt="Portrait d'un beau jeune homme" />
+    </div>
+
+    <div class="home-content">
+      <h3>Salut, je suis Olysse</h3>
+      <h3 class="typing-text">Je <span></span></h3>
+
+      <p>
+        Je suis actuellement en recherche d'alternance avec un rythme de
+        <strong>3 semaines en entreprise / 2 semaines à l'école</strong>. En pleine Piscine d'Epitech,
+        j'acquiers chaque jour de nouvelles compétences en programmation, systèmes et réseaux.
+      </p>
+      <p>
+        Plus bas : mes centres d'intérêt et mon CV. Utilise la navigation pour accéder à mes
+        <strong>formations</strong> et <strong>expériences</strong>.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/olysse/" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/S6leak" aria-label="GitHub" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <a href="CV_Perles_Oysse.pdf" class="btn" >Mon CV</a>
+    </div>
+  </section>
+
+  <!-- Formations -->
+  <section class="section-cards" id="formations">
+    <h2>Mes formations</h2>
+    <div class="cards-grid">
+      <article class="card">
+        <h3>MSc Ingénieur / Architecte des SI</h3>
+        <p><strong>École :</strong> Epitech Marseille</p>
+        <p><strong>Période :</strong> 2025 - 2028</p>
+        <p><strong>Spécialisation :</strong> Cybersécurité &amp; Cloud</p>
+      </article>
+
+      <article class="card">
+        <h3>Bachelor Marketing Digital &amp; Growth</h3>
+        <p><strong>École :</strong> Rocket School</p>
+        <p><strong>Période :</strong> 2023 - 2024</p>
+      </article>
+
+      <article class="card">
+        <h3>Programme Grande École - American Track</h3>
+        <p><strong>École :</strong> IPAG Business School</p>
+        <p><strong>Période :</strong> 2018 - 2022</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Expériences -->
+  <section class="section-cards" id="experiences">
+    <h2>Mes expériences</h2>
+    <div class="cards-grid">
+      <article class="card">
+        <h3>⚔️ Mission : Piscine - Epitech (2025)</h3>
+        <p><strong>Objectif :</strong> Formation intensive en programmation et systèmes.</p>
+        <ul>
+          <li>Python : conditions, boucles, récursivité (jeu du Pendu).</li>
+          <li>Linux / Bash : fichiers, droits, scripts d'automatisation.</li>
+          <li>HTML / CSS : mini-site (CodingPedia).</li>
+          <li>Git / GitHub : dépôts, clés SSH.</li>
+        </ul>
+        <p><strong>Résultat :</strong> Endurance, rigueur et esprit d'équipe renforcés.</p>
+      </article>
+
+      <article class="card">
+        <h3>⚔️ Mission : Account Manager - Yateo (2023-2024)</h3>
+        <p><strong>Objectif :</strong> Optimiser la visibilité et les performances de sites clients.</p>
+        <ul>
+          <li>Optimisation HTML et structure.</li>
+          <li>Analyses techniques : Google Analytics, SEMrush, Ahrefs.</li>
+          <li>Rapports techniques livrés aux clients.</li>
+        </ul>
+        <p><strong>Résultat :</strong> Amélioration continue des performances et livrables techniques.</p>
+      </article>
+
+      <article class="card">
+        <h3>⚔️ Mission : Projets personnels (en cours)</h3>
+        <p><strong>Objectif :</strong> Consolider les bases et explorer de nouvelles pratiques.</p>
+        <ul>
+          <li>Jeu du Pendu (Python).</li>
+          <li>Mini-site HTML/CSS.</li>
+          <li>Scripts Linux (fichiers, permissions, symlinks).</li>
+        </ul>
+        <p><strong>Résultat :</strong> Progression continue et montée en confiance.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <p>
+      Portfolio sponsorisé par un fan de
+      ⚽ <strong>Arsenal FC</strong>, ⚔️ <strong>Warhammer 40k</strong> et 🛡️ <strong>300</strong>.
+    </p>
+    <div class="footer-actions">
+      <a href="CV_Perles_Oysse.pdf" class="btn" download>📄 Télécharger mon CV</a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Olysse — Tous droits réservés.</p>
+  </footer>
+
+  <!-- Typed.js + maj année  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script>
+    new Typed(".typing-text span", {
+      strings: [
+        "recherche une alternance (3 semaines / 2 semaines)",
+        "participe à la Piscine d'Epitech",
+        "développe mes compétences en programmation",
+        "apprends systèmes & réseaux",
+        "suis passionné par la tech"
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

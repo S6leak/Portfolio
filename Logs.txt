@@ -1,0 +1,39 @@
+Version finale : 
+
+
+MAJ : 
+
+Portfolio sobre; 
+fond noir, 
+Couleurs rouge sang et blanc 
+
+structure en grid/div*
+
+liens qui renvoient vers git/Lknd
+descriptions des missions en pop-ups
+
+
+
+[scrapped]
+inspiration du design de activetheory.net
+on part sur un jsfullpage en donnant à chaque page un theme 
+
+section 1 = 300 (antiquité/ histoire)
+section 2 = 40K (sf et JDR)
+section 3 = arsenal (foot et sport)
+section 4 = jeux videos et pc building ?
+footer en bas de la derniere partie et ne doit pas etre une section ou page.
+
+Nav flottante avec liens vers Git et LinkedIn + refs au univers mentionnés
+
+Mettre une quote sur chaque thème en référence à chacun de univers
+
+nouvelles idées vendredi : 
+
+ajouts possibles section 1 : fresque grecque autour du <aside>, theme sable, bronze et sang sinon un bouclier en fond pour le <aside> , pour les paragraphes on pourrait avoir des lances de spartiates en dessous pour faire comme le texte tenait dessus, sinon on peut faire comme ci le texte etait gravé dans des glaives 
+
+ajouts possibles section 2 : présentation et font du texte similaire à ordinateur de l'imperium, sceau sur les missions validées 
+
+
+scrap on va refaire un fichier en partant sur un nouveaux modèle, je suis dépassé. je vais réutiliser des ressources et du code celui ci quand même
+[scrapped]
